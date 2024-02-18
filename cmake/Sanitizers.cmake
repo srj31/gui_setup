@@ -1,5 +1,5 @@
 function(
-  myproject_enable_sanitizers
+  gui_setup_enable_sanitizers
   project_name
   ENABLE_SANITIZER_ADDRESS
   ENABLE_SANITIZER_LEAK

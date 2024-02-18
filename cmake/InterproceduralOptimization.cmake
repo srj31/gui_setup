@@ -1,4 +1,4 @@
-macro(myproject_enable_ipo)
+macro(gui_setup_enable_ipo)
   include(CheckIPOSupported)
   check_ipo_supported(RESULT result OUTPUT output)
   if(result)
